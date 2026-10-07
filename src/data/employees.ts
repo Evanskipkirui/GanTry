@@ -1,0 +1,68 @@
+import type { Employee } from '@/types/employee'
+
+export const employees: Employee[] = [
+  {
+    id: 'e-001',
+    name: 'Grace Wanjiku',
+    email: 'g.wanjiku@acme.co.ke',
+    department: 'Administration',
+    role: 'Office Manager',
+    tenantId: 'acme',
+  },
+  {
+    id: 'e-002',
+    name: 'David Kamau',
+    email: 'd.kamau@acme.co.ke',
+    department: 'Engineering',
+    role: 'Senior Engineer',
+    tenantId: 'acme',
+  },
+  {
+    id: 'e-003',
+    name: 'Sylvia Ndung\'u',
+    email: 's.ndungu@acme.co.ke',
+    department: 'Human Resources',
+    role: 'HR Manager',
+    tenantId: 'acme',
+  },
+  {
+    id: 'e-004',
+    name: 'Peter Odhiambo',
+    email: 'p.odhiambo@acme.co.ke',
+    department: 'Sales',
+    role: 'Sales Lead',
+    tenantId: 'acme',
+  },
+  {
+    id: 'e-005',
+    name: 'Janet Muriithi',
+    email: 'j.muriithi@acme.co.ke',
+    department: 'Finance',
+    role: 'Finance Officer',
+    tenantId: 'acme',
+  },
+  {
+    id: 'e-006',
+    name: 'Felix Kiplagat',
+    email: 'f.kiplagat@acme.co.ke',
+    department: 'Engineering',
+    role: 'DevOps Engineer',
+    tenantId: 'acme',
+  },
+  {
+    id: 'e-007',
+    name: 'Pauline Awino',
+    email: 'p.awino@acme.co.ke',
+    department: 'Operations',
+    role: 'Operations Coordinator',
+    tenantId: 'acme',
+  },
+  {
+    id: 'e-008',
+    name: 'Charles Ng\'ang\'a',
+    email: 'c.nganga@acme.co.ke',
+    department: 'Administration',
+    role: 'Receptionist',
+    tenantId: 'acme',
+  },
+]

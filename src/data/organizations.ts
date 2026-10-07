@@ -1,0 +1,58 @@
+import type { Organization } from '@/types/organization'
+
+export const organizations: Organization[] = [
+  {
+    id: 'org-001',
+    name: 'Acme Technologies',
+    slug: 'acme',
+    plan: 'enterprise',
+    users: 24,
+    visitors: 312,
+    status: 'active',
+  },
+  {
+    id: 'org-002',
+    name: 'Beta Solutions Ltd',
+    slug: 'beta',
+    plan: 'pro',
+    users: 11,
+    visitors: 148,
+    status: 'active',
+  },
+  {
+    id: 'org-003',
+    name: 'Gamma Logistics',
+    slug: 'gamma',
+    plan: 'pro',
+    users: 8,
+    visitors: 97,
+    status: 'active',
+  },
+  {
+    id: 'org-004',
+    name: 'Delta Consulting Group',
+    slug: 'delta',
+    plan: 'starter',
+    users: 4,
+    visitors: 41,
+    status: 'active',
+  },
+  {
+    id: 'org-005',
+    name: 'Epsilon Enterprises',
+    slug: 'epsilon',
+    plan: 'starter',
+    users: 3,
+    visitors: 22,
+    status: 'paused',
+  },
+  {
+    id: 'org-006',
+    name: 'Zeta Capital Partners',
+    slug: 'zeta',
+    plan: 'enterprise',
+    users: 18,
+    visitors: 205,
+    status: 'paused',
+  },
+]

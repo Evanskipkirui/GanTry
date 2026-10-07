@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@theme {
+  /* Backgrounds */
+  --color-paper: #F4F1EA;
+  --color-surface: #FFFFFF;
+  --color-surface-alt: #EAE6DC;
+
+  /* Text & structure */
+  --color-ink: #1A1A18;
+  --color-ink-muted: #5A5A56;
+  --color-ink-faint: #8E8E88;
+  --color-border: #D4CFC2;
+  --color-border-strong: #1A1A18;
+
+  /* Accent */
+  --color-amber: #C8781A;
+  --color-amber-light: #F0D9B5;
+
+  /* Status */
+  --color-green: #3D7A47;
+  --color-green-light: #D7E5D4;
+  --color-red: #A83232;
+  --color-red-light: #E8D2D2;
+  --color-slate: #4A5568;
+
+  /* Navigation */
+  --color-charcoal: #171A17;
+  --color-charcoal-alt: #232823;
+  --color-charcoal-text: #E8E6E0;
+  --color-charcoal-muted: #8E8E88;
+
+  /* Fonts */
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  /* Radius */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+
+  /* Typography */
+  --text-xs: 0.6875rem;
+  --text-sm: 0.8125rem;
+  --text-base: 0.875rem;
+  --text-lg: 1rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 2rem;
+
+  /* Letter spacing */
+  --tracking-tight: -0.01em;
+  --tracking-normal: 0;
+  --tracking-label: 0.08em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--color-ink);
+}
+
+code,
+pre,
+.font-mono {
+  font-family: var(--font-mono);
+}
